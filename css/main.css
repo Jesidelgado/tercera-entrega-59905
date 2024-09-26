@@ -1,0 +1,758 @@
+body {
+  background-color: white;
+}
+
+main {
+  margin: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-column: 1fr;
+  grid-template-rows: 1fr;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: rgb(195, 40, 20);
+  padding: 8px;
+  margin: 2px;
+  text-align: center;
+}
+header .navbar {
+  background-color: rgb(195, 40, 20);
+}
+header .nav-item {
+  font-size: 18px;
+}
+header .navbar-nav .nav-link:hover {
+  background-color: #de7777;
+  color: rgb(216, 216, 216);
+  border-radius: 5px;
+  box-shadow: 1px 3px 4px #555;
+}
+
+.general {
+  background-color: none;
+}
+.general h1 {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.auto, .home, .servicios, .nosotros, .contacto {
+  background-color: whitesmoke;
+}
+.auto h2, .home h2, .servicios h2, .nosotros h2, .contacto h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.auto p, .home p, .servicios p, .nosotros p, .contacto p {
+  text-align: center;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.servicios {
+  margin: 0 0 8px;
+  padding: 16px;
+}
+.servicios ul li {
+  margin: 10px;
+  text-align: center;
+  font-size: 17px;
+  font-style: italic;
+  list-style-type: none;
+}
+
+.nosotros, .contacto {
+  margin: auto;
+  padding: auto;
+}
+.nosotros p, .contacto p {
+  margin: 0 0 8px;
+  padding: 16px;
+}
+
+.servi {
+  background-color: whitesmoke;
+  text-align: center;
+}
+.servi div h1 {
+  margin-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.servi div h2 {
+  text-align: center;
+}
+.servi div p {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: none;
+  text-align: center;
+  text-align-last: auto;
+  font-style: italic;
+}
+
+main .div-uno {
+  margin: 20px 0;
+  padding-top: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main .div-uno img {
+  border-radius: 4px;
+  width: 60%;
+  height: 20px;
+  object-fit: cover;
+}
+main .div-uno h2 {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+}
+main .div-uno p {
+  padding: 10px;
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+  font-style: italic;
+  justify-content: center;
+}
+
+.nos {
+  background-color: "$secondary-color";
+}
+.nos h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nos div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nos div p {
+  background-color: #ededed;
+  margin: 10px;
+  padding: 10px;
+  font-size: 17px;
+  font-style: italic;
+  text-align: justify;
+  text-align-last: left;
+}
+.nos div img {
+  margin: 10px;
+  padding: 20px;
+  background-color: #e2e1e1;
+  border-radius: 8px;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  align-self: center;
+  justify-self: center;
+  flex: 1 1 30%;
+}
+
+.tit {
+  background-color: none;
+}
+
+.titul {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sub p {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: whitesmoke;
+  font-style: italic;
+  text-align: justify;
+}
+
+.gal {
+  border-radius: 5px;
+  background-color: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+
+.multi {
+  height: auto;
+  margin: 10px;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 1px 2px #555;
+}
+.multi img {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  align-self: center;
+  justify-self: center;
+}
+
+.preguntas {
+  background-color: whitesmoke;
+}
+.preguntas h2 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.faq-item {
+  background-color: none;
+  text-align: center;
+}
+.faq-item p {
+  text-align: center;
+  font-style: italic;
+  text-wrap: balance;
+}
+
+main h1, main h2 {
+  padding: 1rem;
+  text-align: center;
+}
+
+.final {
+  background-color: whitesmoke;
+}
+.final h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.final h2 {
+  text-align: center;
+}
+
+.datos {
+  margin: auto;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.datos h3 {
+  text-align: center;
+  font-size: 20px;
+}
+.datos p {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.maps {
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px rgb(0, 0, 0.1);
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.maps iframe {
+  width: 100%;
+  height: 500px;
+  border: 0;
+  margin: 1rem 0;
+}
+
+.formu {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formu form {
+  background-color: #ededed;
+  margin: 15px;
+  padding: 20px;
+  max-width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.formu form fieldset {
+  background-color: whitesmoke;
+}
+.formu form fieldset legend {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.formu form div {
+  display: inline-block;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.formu form div label {
+  margin-bottom: 5px;
+  font-size: 17px;
+  color: #555;
+}
+.formu form div input, .formu form div textarea {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border: none;
+  border: 3px solid rgb(216, 216, 216);
+  box-shadow: 0 0 15px 1px 3px 4px #555;
+  width: 100%;
+  max-width: 100%;
+}
+.formu form div textarea {
+  height: 150px;
+  resize: none;
+  overflow: hidden;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.formu form .mensaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.formu form .boton {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.formu form .boton input[type=submit], .formu form .boton input[type=reset] {
+  padding: 10px 20px;
+  font-size: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(195, 40, 20);
+  color: whitesmoke;
+  width: auto;
+}
+
+footer {
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(195, 40, 20);
+  color: whitesmoke;
+  text-align: center;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+footer .container p {
+  text-align: center;
+  font-size: 16px;
+}
+footer .container p a {
+  color: whitesmoke;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .navbar-nav .nav-link:hover {
+    box-shadow: 1px 2px 3px #555;
+  }
+  main .general h1 {
+    font-size: 26px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0.1);
+  }
+  main .auto h2, main .home h2, main .servicios h2, main .nosotros h2, main .contacto h2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  main .auto p, main .home p, main .servicios p, main .nosotros p, main .contacto p {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+  }
+  main .servicios {
+    text-align: center;
+  }
+  main .servicios ul li {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    list-style-type: none;
+  }
+  main .nosotros, main .contacto {
+    text-align: center;
+    font-size: 17px;
+  }
+  main .serv {
+    padding: 10px;
+  }
+  main .serv div h1 {
+    font-size: 18px;
+  }
+  main .serv div h2 {
+    font-size: 17px;
+  }
+  main .serv div p {
+    font-size: 16px;
+  }
+  main main .div-uno img {
+    width: 100%;
+    height: auto;
+  }
+  main main .div-uno h2 {
+    font-size: 18px;
+  }
+  main main .div-uno p {
+    font-size: 16px;
+  }
+  main .gal {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+    overflow-x: hidden;
+  }
+  main .div-uno {
+    padding: 0.5rem;
+  }
+  main .div-uno img {
+    width: 100%;
+    height: auto;
+  }
+  main .tit {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main .nos {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: whitesmoke;
+  }
+  main .nos h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0.1);
+  }
+  main .nos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  main .nos div p {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ededed;
+    text-align: justify;
+    font-size: 16px;
+    font-style: italic;
+    width: 100%;
+  }
+  main .nos div img {
+    margin: 10px;
+    padding: 10px;
+    background-color: #e2e1e1;
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 1px 3px 4px #555;
+  }
+  .servi, main .div-uno {
+    padding: 10px;
+  }
+  .servi h1, .servi h2, .servi p, main .div-uno h1, main .div-uno h2, main .div-uno p {
+    text-align: center;
+  }
+  .servi img, main .div-uno img {
+    width: 100%;
+  }
+  .titul {
+    font-size: 18px;
+  }
+  .multi main {
+    padding: 10px;
+  }
+  .multi main h1 {
+    font-size: 18px;
+  }
+  .multi main h2 {
+    font-size: 17px;
+  }
+  .multi main p {
+    font-size: 16px;
+  }
+  .multi main img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .preguntas {
+    padding: 0 10px;
+  }
+  .faq.items {
+    margin-bottom: 20px;
+  }
+  form div {
+    flex-direction: row;
+    align-items: center;
+  }
+  form div label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+  }
+  form div imput, form div textarea {
+    flex: 2;
+  }
+}
+.footer {
+  padding: 10px;
+}
+.footer p {
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  main .gal {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    overflow-x: hidden;
+  }
+  main .div-uno {
+    padding: 1rem;
+  }
+  main .div-uno img {
+    width: 80%;
+    height: auto;
+  }
+  main .tit {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .nos {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: whitesmoke;
+  }
+  main .nos h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  main .nos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  main .nos div p {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ededed;
+    text-align: justify;
+    font-size: 17px;
+    font-style: italic;
+    width: 80%;
+  }
+  main .nos div img {
+    margin: 10px;
+    padding: 10px;
+    background-color: #e2e1e1;
+    border-radius: 8px;
+    width: 70%;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 1px 3px 4px #555;
+  }
+  main .multi h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  main .multi img {
+    width: 250px;
+    height: 150px;
+  }
+  .final h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  .final h2 {
+    font-size: 18px;
+  }
+  .final .datos {
+    padding: 15px;
+  }
+  .final .datos h3 {
+    font-size: 18px;
+  }
+  .final .datos p {
+    font-size: 17px;
+  }
+  .final .maps {
+    padding-bottom: 15px;
+    margin-top: 15px;
+  }
+  .final .maps iframe {
+    height: 400px;
+  }
+  .final .formu form {
+    padding: 15px;
+    max-width: 90%;
+  }
+  .final .formu form fieldset legend {
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+  }
+  .final .formu form div {
+    margin-bottom: 10px;
+  }
+  .final .formu form div label {
+    font-size: 16px;
+  }
+  .final .formu form div input, .final .formu form div textarea {
+    padding: 5px 10px;
+  }
+  .final .formu form div textarea {
+    height: 120px;
+  }
+  .final .formu form .mensaje {
+    padding: 15px;
+  }
+  .final .formu form .boton input[type=submit], .final .formu form .boton input[type=reset] {
+    padding: 8px 15px;
+    font-size: 17px;
+  }
+  .servi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  main .servi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .div-uno {
+    flex: 1 1 45%;
+    margin: 10px;
+  }
+  .div-uno img {
+    width: 40%;
+    height: auto;
+  }
+  .footer {
+    padding: 15px;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .servi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  main .servi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .nos {
+    padding: 15px;
+  }
+  .nos h1 {
+    font-size: 40px;
+  }
+  .nos div p {
+    font-size: 17px;
+    font-style: italic;
+  }
+  .nos div img {
+    width: 350px;
+    height: 250px;
+  }
+  .gal {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    margin: 5px;
+  }
+  .multi {
+    padding: 5px;
+    margin: 5px;
+  }
+  .multi img {
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 1px 3px 4px #555;
+  }
+  main .div-uno {
+    flex: 1 1 45%;
+    margin: 10px;
+  }
+  main .div-uno img {
+    width: 70%;
+    height: auto;
+  }
+  form div {
+    flex-direction: row;
+    align-items: center;
+  }
+  form div label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+  }
+  form div input, form div textarea {
+    flex: 2;
+  }
+  .boton {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .boton input[type=submit], .boton input[type=reset] {
+    margin-left: 10px;
+  }
+  .maps {
+    background-color: whitesmoke;
+    box-shadow: 4px 4x 8px rgb(0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .maps iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
+}
+.footer {
+  padding: 20px;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main.css.map */
