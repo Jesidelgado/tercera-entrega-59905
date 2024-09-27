@@ -1,0 +1,107 @@
+// estilos vista desktop
+
+@media screen and (min-width: 1024px){
+    .servi{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    main .servi{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .nos{
+        padding: 15px;
+
+        h1{
+            font-size: $font-size-large
+        }
+
+        div{
+            p{
+                font-size: $font-size-small;
+                font-style: italic;
+            }
+            
+            img{
+                width: 350px;
+                height: 250px;
+            }
+        }
+    }
+    .gal{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .multi{
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .multi img{
+        width: 300px;
+        height: 200px;
+        border-radius: 4px;
+        @include box-shadow($box-shadow-hover)
+    }
+
+    main .div-uno{
+        flex: 1 1 45%;
+        margin: 10px;
+
+        img{
+            width: 70%;
+            height: auto;
+        }
+    }
+
+    form div{
+        flex-direction: row;
+        align-items: center;
+
+        label{
+            flex: 1;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        input, textarea{
+            flex: 2;
+        }
+    }
+
+    .boton{
+        justify-content: flex-start;
+        align-items: center;
+
+        input[type="submit"], input[type="reset"]{
+            margin-left: 10px;
+        }
+    }
+
+    .maps{
+        background-color: $secondary-color;
+        box-shadow: 4px 4x 8px rgba(0, 0, 0.1);
+        padding: 20px;
+        margin-top: 20px;
+
+        iframe{
+            width: 100%;
+            height: 500px;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+    }
+
+    
+}
+
+.footer{
+    padding: 20px;
+    font-size: $font-size-medium;
+}

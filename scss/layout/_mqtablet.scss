@@ -1,0 +1,179 @@
+// estilos para vista tablet
+
+@media (min-width: 768px) and (max-width: 1023px){
+    main{
+        .gal{
+            grid-template-columns: repeat(2, 1fr);
+            padding: 1rem;
+            overflow-x: hidden;
+        }
+
+        .div-uno{
+            padding: 1rem;
+
+            img{
+                width: 80%;
+                height: auto;
+            }
+        }
+
+        .tit{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .nos{
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: $secondary-color;
+
+            h1{
+                font-family: $font-family;
+                font-size: $font-size-large;
+                text-align: center;
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0.5rem;
+
+                p{
+                    margin: 10px;
+                    padding: 10px;
+                    background-color: $background-grey;
+                    @include text-style(justify, $font-size-small, italic);
+                    width: 80%;
+                }
+
+                img{
+                    margin: 10px;
+                    padding: 10px;
+                    background-color: $background-ligth-grey;
+                    border-radius: 8px;
+                    width: 70%;
+                    height: 350px;
+                    object-fit: cover;
+                    @include box-shadow($box-shadow-hover);
+                }
+            }
+        }
+
+        .multi{
+            h1{
+                font-family: $font-family;
+                font-size: $font-size-large;
+                text-align: center;
+            }
+        }
+        .multi img{
+            width: 250px;
+            height: 150px;
+        }
+
+    }
+
+    .final{
+        h1{
+            font-family: $font-family;
+            font-size: $font-size-large;
+            text-align: center;
+        }
+
+        h2{
+            font-size: $font-size-medium;
+        }
+
+        .datos{
+            padding: 15px;
+        
+            h3{
+                font-size: $font-size-medium;
+            }
+
+            p{
+                font-size: $font-size-small;
+            }
+        }
+
+        .maps{
+            padding-bottom: 15px;
+            margin-top: 15px;
+
+            iframe{
+                height: 400px;
+            }
+        }
+
+        .formu{
+            form{
+                padding: 15px;
+                max-width: 90%;
+
+                fieldset{
+                    legend{
+                        padding-bottom: 20px;
+                        margin-bottom: 5px;
+                    }
+                }
+
+                div{
+                    margin-bottom: 10px;
+
+                    label{
+                        font-size: $font-size-xsmall;
+                    }
+
+                    input, textarea{
+                        padding: 5px 10px;
+                    }
+                    textarea{
+                        height: 120px;
+                    }
+                }
+
+                .mensaje{
+                    padding: 15px;
+                }
+
+                .boton{
+                    input[type="submit"], input[type="reset"]{
+                        padding: 8px 15px;
+                        font-size: $font-size-small;
+                    }
+                }
+            }
+        }
+    }
+    
+//estilos de _servicios
+    .servi{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    main .servi{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .div-uno{
+        flex: 1 1 45%;
+        margin: 10px;
+        img{
+            width: 40%;
+            height: auto;
+        }
+    }
+
+    .footer{
+        padding: 15px;
+        font-size: $font-size-small;
+    }
+    
+}
+
+

@@ -1,0 +1,23 @@
+
+footer{
+    margin: auto;
+    padding: 20px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    text-align: center;
+
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        p{
+            text-align: center;
+            font-size: $font-size-xsmall;
+
+            a{
+                color: $secondary-color;
+            }
+        }   
+    }
+}

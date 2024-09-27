@@ -1,0 +1,210 @@
+//vista mobile 
+
+@media (min-width: 320px) and (max-width: 767px){
+    .navbar-nav .nav-link{
+        &:hover{
+            box-shadow: $box-shadow-hover-mobile;
+        }
+    }   
+    main{
+        .general{
+            h1{
+                font-size: 26px;
+                font-family: $font-family;
+                text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0.1);
+            }
+        }
+
+        .auto, .home, .servicios, .nosotros, .contacto{
+            h2{
+                font-family: $font-family;
+                text-align: center;
+            }
+
+            p{
+                text-align: center;
+                font-size: $font-size-xsmall;
+                font-style: italic;
+            }
+        }
+        
+        .servicios{
+            text-align: center;
+            
+            ul li{
+                margin: 10px;
+                text-align: center;
+                font-size: $font-size-xsmall;
+                font-style: italic;
+                list-style-type: none;
+            }
+
+        }
+
+        .nosotros, .contacto{
+            text-align: center;
+            font-size: $font-size-small;
+        }
+        
+        .serv{
+            padding: 10px;
+
+            div{
+                h1{
+                    font-size: $font-size-medium;
+                }
+                h2{
+                    font-size: $font-size-small;
+                }
+
+                p{
+                    font-size: $font-size-xsmall;
+                }
+            }
+        }
+
+        main .div-uno{
+            img{
+                width: 100%;
+                height: auto;
+            }
+            h2{
+                font-size: $font-size-medium;
+            }
+
+            p{
+                font-size: $font-size-xsmall;
+            }
+        }
+
+        
+        .gal{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 0.5rem;
+            overflow-x: hidden;
+        }
+
+        .div-uno{
+            padding: 0.5rem;
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .tit{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .nos{
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            background-color: $secondary-color;
+
+            h1{
+                font-family: $font-family;
+                font-size: 26px;
+                text-align: center;
+                text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0.1);
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0.5rem;
+
+                p{
+                    margin: 10px;
+                    padding: 10px;
+                    background-color: $background-grey;
+                    @include text-style(justify, $font-size-xsmall, italic);
+                    width: 100%;
+                }
+
+                img{
+                    margin: 10px;
+                    padding: 10px;
+                    background-color: $background-ligth-grey;
+                    border-radius: 8px;
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                    @include box-shadow($box-shadow-hover);
+                }
+            }
+        }
+
+    }
+    .servi, main .div-uno{
+        padding: 10px;
+
+        h1, h2, p{
+            text-align: center;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .titul{
+        font-size: $font-size-medium;
+    }
+    .multi main{
+        padding: 10px;
+
+        h1{
+            font-size: $font-size-medium;
+        }
+        h2{
+            font-size: $font-size-small;
+        }
+        p{
+            font-size: $font-size-xsmall;
+        }
+
+        img{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .preguntas{
+        padding: 0 10px;
+    }
+
+    .faq{
+        &.items{
+            margin-bottom: 20px;
+        }
+    }
+
+    form div{
+        flex-direction: row;
+        align-items: center;
+
+        label{
+            flex: 1;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        imput, textarea{
+            flex: 2;
+        }
+    }
+}
+
+.footer{
+    padding: 10px;
+
+    p{
+        font-size: $font-size-xsmall;
+        text-align: center;
+    }
+}

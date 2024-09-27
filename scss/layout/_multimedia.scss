@@ -1,0 +1,78 @@
+
+
+.tit{
+    background-color: none;
+}
+
+.titul{
+    font-family: $font-family;
+}
+
+.sub p{
+        margin: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        font-size: $font-size-small;
+        background-color: $secondary-color;
+        font-style: italic;
+        text-align: justify;
+    }
+
+.gal{
+    border-radius: 5px;
+    background-color: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.multi{
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    background-color: $secondary-color;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 2px $text-color;
+
+    img{
+      border-radius: 5px;
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      object-fit: cover;
+      align-self: center;
+      justify-self: center;
+
+    }
+}
+
+.preguntas{
+    background-color: $secondary-color;
+  
+    h2{
+      font-size: 30px;
+      font-family: $font-family;
+    }
+}
+  
+.faq-item{
+    background-color: none;
+    text-align: center;
+  
+    p{
+      text-align: center;
+      font-style: italic;
+      text-wrap: balance;
+    }
+}
+  
+  main{
+    h1, h2{
+      padding: 1rem;
+      text-align: center;
+    }
+}

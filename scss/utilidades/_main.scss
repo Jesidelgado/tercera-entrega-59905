@@ -1,0 +1,13 @@
+//body
+
+body{
+    background-color: white;
+}
+
+main{
+    margin: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: 1fr;
+}

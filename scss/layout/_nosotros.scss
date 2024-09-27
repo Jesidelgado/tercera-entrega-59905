@@ -1,0 +1,39 @@
+.nos{
+    background-color: "$secondary-color";
+
+
+    h1{
+        font-family: $font-family;
+    }
+
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        p{
+            background-color: $background-grey;
+            margin: 10px;
+            padding: 10px;
+            font-size: $font-size-small;
+            font-style: italic;
+            text-align: justify;
+            text-align-last: left;
+
+        }
+
+        img{
+            margin: 10px;
+            padding: 20px;
+            background-color: $background-ligth-grey;
+            border-radius: 8px;
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+            align-self: center;
+            justify-self: center;
+            flex: 1 1 30%;
+        }
+    }
+}
+

@@ -1,0 +1,26 @@
+//estilo de header
+
+
+header{
+    background-color: $primary-color;
+    padding: 8px;
+    margin: 2px;
+    text-align: center;
+  
+    .navbar{
+      background-color: $primary-color;
+    }
+  
+    .nav-item{
+      font-size: $font-size-medium;
+    }
+  
+    .navbar-nav .nav-link{
+      &:hover{
+        background-color: rgba($color: #de7777, $alpha: 1.0);
+        color: $tertiary-bg-color;
+        border-radius: 5px;
+        box-shadow: $box-shadow-hover;        
+      }
+    }
+}

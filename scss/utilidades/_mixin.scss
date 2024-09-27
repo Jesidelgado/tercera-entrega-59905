@@ -1,0 +1,17 @@
+//_mixin
+
+@mixin box-shadow($shadow) {
+  box-shadow: $shadow;
+}
+
+@mixin text-style($align, $size, $style: normal) {
+  text-align: $align;
+  font-size: $size;
+  font-style: $style;
+}
+
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
